@@ -7,14 +7,13 @@ Welcome to the **Face Detection Using OpenCV** project! This project demonstrate
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
 This project captures video from a webcam and detects faces in real-time using OpenCV. The detected faces are highlighted with rectangles on the video stream.
 
-![Face Detection Example](images/face_detection_example.png)
+### Screenshot
+![Face Detection Example](face_demo_img.png)
 
 ## Features
 
