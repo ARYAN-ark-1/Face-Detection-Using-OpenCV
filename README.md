@@ -1,48 +1,56 @@
-# Face-Detection-Using-OpenCV
-Welcome to the Face Detection Using OpenCV project! This project demonstrates real-time face detection using OpenCV's Haar Cascade Classifier.
+# Face Detection Using OpenCV
 
-Table of Contents
-Introduction
-Features
-Installation
-Usage
-Contributing
-License
-Introduction
+Welcome to the **Face Detection Using OpenCV** project! This project demonstrates real-time face detection using OpenCV's Haar Cascade Classifier.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
 This project captures video from a webcam and detects faces in real-time using OpenCV. The detected faces are highlighted with rectangles on the video stream.
 
+![Face Detection Example](images/face_detection_example.png)
 
-Features
-Real-time face detection
-Simple and efficient code
-Uses OpenCV's pre-trained Haar Cascade Classifier
-Installation
-Clone the repository:
+## Features
 
-sh
-Copy code
-git clone https://github.com/your-username/face-detection-opencv.git
-cd face-detection-opencv
-Install the required dependencies:
+- Real-time face detection
+- Simple and efficient code
+- Uses OpenCV's pre-trained Haar Cascade Classifier
 
-sh
-Copy code
-pip install opencv-python
-Usage
-Ensure you have a webcam connected to your computer.
+## Installation
 
-Run the script:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/face-detection-opencv.git
+    cd face-detection-opencv
+    ```
 
-sh
-Copy code
-python face_detection.py
-The webcam feed will open, and detected faces will be highlighted with rectangles.
+2. Install the required dependencies:
+    ```sh
+    pip install opencv-python
+    ```
 
-Press q to close the video feed.
+## Usage
 
-Code
-python
-Copy code
+1. Ensure you have a webcam connected to your computer.
+
+2. Run the script:
+    ```sh
+    python face_detection.py
+    ```
+
+3. The webcam feed will open, and detected faces will be highlighted with rectangles.
+
+4. Press `q` to close the video feed.
+
+## Code
+
+```python
 import pathlib
 import cv2
 
@@ -70,14 +78,3 @@ while True:
 
 camera.release()
 cv2.destroyAllWindows()
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Happy coding! 😊
-
-Screenshots
-
-
